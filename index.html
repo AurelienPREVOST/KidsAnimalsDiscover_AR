@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script src="./scripts/aframe-AR.js"></script>
+  <script src="./scripts/aframe-gif-shader.min.js"></script>
+  <body>
+    <a-scene embedded arjs>
+      <!-- IMAGE 2D QUI FLOTTE ET QUI TOURNE -->
+      <!-- <a-marker type='pattern' url='./pattern/pattern-hiro.patt'>
+        <a-image src="./2DFlatImages/Animals/duck.png"
+          position= "0 1 0"
+          scale= "2 2 2"
+          rotation="0 2 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 7000"
+        />
+      </a-marker> -->
+
+
+      <!-- MODELE 3D VACHE -->
+      <!-- <a-marker type='pattern' url='./pattern/pattern-hiro.patt'>
+        <a-entity 
+          gltf-model="./3Dobjects/Animals/milkcow/scene.gltf"
+          position="0 0 0"
+          scale="0.5 0.5 0.5"
+        />
+      </a-marker> -->
+      <!-- MODELE 3D bourdon -->
+      <a-marker type='pattern' url='./pattern/kanji.patt'>
+        <a-entity 
+          gltf-model="./3Dobjects/Animals/requin/scene.gltf"
+          position="0 0 0"
+          scale="1 1 1"
+          animation-mixer
+        />
+      </a-marker>
+      <!-- MODELE 3D bourdon -->
+      <a-marker type='pattern' url='./pattern/pattern-hiro.patt'>
+        <a-entity 
+          gltf-model="./3Dobjects/Animals/tigre/scene.gltf"
+          position="0 0 0"
+          scale="1 1 1"
+          rotation="0 180"
+          animation-mixer
+        />
+      </a-marker>
+      <!-- MODELE 3D poule -->
+      <a-marker type='pattern' url='./pattern/letterA.patt'>
+        <a-entity 
+          gltf-model="./3Dobjects/Animals/poule/scene.gltf"
+          position="0 0 0"
+          scale="1 1 1"
+          animation-mixer
+        />
+      </a-marker>
+      <!-- MODELE 3D chien -->
+      <a-marker type='pattern' url='./pattern/letterB.patt'>
+        <a-entity 
+          gltf-model="./3Dobjects/Animals/chien/scene.gltf"
+          position="-1 0 5"
+          scale="2 2 2"
+          animation-mixer
+        />
+      </a-marker>
+      <!-- MODELE 3D elephant -->
+      <a-marker type='pattern' url='./pattern/letterC.patt'>
+        <a-entity 
+          gltf-model="./3Dobjects/Animals/elephant/scene.gltf"
+          
+          position="0 0 0"
+          scale="0.1 0.1 0.1"
+          animation-mixer
+        />
+      </a-marker>
+      <!-- MODELE 3D mouton -->
+      <a-marker type='pattern' url='./pattern/letterD.patt'>
+        <a-entity 
+          gltf-model="./3Dobjects/Animals/mouton/scene.gltf"
+          position="0 0 0"
+          scale="0.8 0.8 0.8"
+          animation-mixer
+        />
+      </a-marker>
+      <!-- MODELE 3D pingouin -->
+      <a-marker type='pattern' url='./pattern/letterF.patt'>
+        <a-entity 
+          gltf-model="./3Dobjects/Animals/pingouin/scene.gltf"
+          position="0 0 0"
+          scale="1 1 1"
+          animation-mixer
+        />
+      </a-marker>
+      <!-- MODELE 3D poisson -->
+      <a-marker type='pattern' url='./pattern/letterG.patt'>
+        <a-entity 
+          gltf-model="./3Dobjects/Animals/poisson/scene.gltf"
+          position="0 0 0"
+          scale="0.3 0.3 0.3"
+          animation-mixer
+        />
+      </a-marker>
+
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>

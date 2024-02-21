@@ -1,0 +1,11 @@
+Model Information:
+* title:	9143
+* source:	https://sketchfab.com/3d-models/9143-1c1082c524c14d8289d0a188fec8aa81
+* author:	usere3 (https://sketchfab.com/usere3)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "9143" (https://sketchfab.com/3d-models/9143-1c1082c524c14d8289d0a188fec8aa81) by usere3 (https://sketchfab.com/usere3) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
