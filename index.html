@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-  <script src="./scripts/aframe-AR.js"></script>
-  <script src="./scripts/aframe-gif-shader.min.js"></script>
+  <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+  <!-- <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js'></script> -->
+  <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
   <link rel="stylesheet" href="./public/style.css">
   <body>
-    <a-scene embedded arjs>
-
+    <a-scene 
+      embedded 
+      arjs
+      renderer="logarithmicDepthBuffer: true;"
+      vr-mode-ui="enabled: false"
+      gesture-detector
+      id="scene"
+    >
       <!-- bourdon -->
       <a-marker type='pattern' url='https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/pattern/letterA.patt'>
         <a-entity 
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/bourdon/scene.gltf"
           position="0 0 0"
           scale="0.4 0.4 0.4"
-          animation-mixer
         />
       </a-marker>
       <!-- chien -->
       <a-marker type='pattern' url='https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/pattern/letterK.patt'>
         <a-entity 
-          gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/poule/scene.gltf"
+          gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/chien/scene.gltf"
           position="0 0 0"
           scale="1 1 1"
-          animation-mixer
         />
       </a-marker>
       <!-- elephant -->
@@ -31,7 +35,6 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/elephant/scene.gltf"
           position="0 0 0"
           scale="0.1 0.1 0.1"
-          animation-mixer
         />
       </a-marker>
       <!-- pingouin -->
@@ -40,7 +43,6 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/pingouin/scene.gltf"
           position="0 0 0"
           scale="0.8 0.8 0.8"
-          animation-mixer
         />
       </a-marker>
       <!-- poisson -->
@@ -49,7 +51,6 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/poisson/scene.gltf"
           position="0 0 0"
           scale="0.3 0.3 0.3"
-          animation-mixer
         />
       </a-marker>
       <!-- poule -->
@@ -58,7 +59,6 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/poule/scene.gltf"
           position="0 0 0"
           scale="0.8 0.8 0.8"
-          animation-mixer
         />
       </a-marker>
       <!-- requin -->
@@ -67,7 +67,6 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/requin/scene.gltf"
           position="0 0 0"
           scale="0.4 0.4 0.4"
-          animation-mixer
         />
       </a-marker>
       <!-- tigre -->
@@ -75,8 +74,7 @@
         <a-entity 
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/tigre/scene.gltf"
           position="0 0 0"
-          scale="0.4 0.4 0.4"
-          animation-mixer
+          scale="1 1 1"
         />
       </a-marker>
 
@@ -86,10 +84,8 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/vache/scene.gltf"
           position="0 0 0"
           scale="0.4 0.4 0.4"
-          animation-mixer
         />
       </a-marker>
-
       <a-entity camera></a-entity>
     </a-scene>
   </body>
