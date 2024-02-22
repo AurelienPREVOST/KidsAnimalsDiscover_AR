@@ -4,21 +4,24 @@
   <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
   <link rel="stylesheet" href="./public/style.css">
   <body>
-    <a-scene 
-      embedded 
-      arjs
-      renderer="logarithmicDepthBuffer: true;"
-      vr-mode-ui="enabled: false"
-      gesture-detector
-      id="scene"
-    >
+    <a-scene
+          arjs
+          embedded
+          renderer="logarithmicDepthBuffer: true;"
+          vr-mode-ui="enabled: false"
+          gesture-detector
+          id="scene"
+      >
       <!-- bourdon -->
       <a-marker type='pattern' url='https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/pattern/letterA.patt'>
         <a-entity 
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/bourdon/scene.gltf"
           position="0 0 0"
           scale="0.4 0.4 0.4"
-        />
+          class="clickable"
+          gesture-handler="minScale: 0.25; maxScale: 10"
+        >
+        </a-entity>
       </a-marker>
       <!-- chien -->
       <a-marker type='pattern' url='https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/pattern/letterK.patt'>
@@ -26,7 +29,10 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/chien/scene.gltf"
           position="0 0 0"
           scale="1 1 1"
-        />
+          class="clickable"
+          gesture-handler="minScale: 0.25; maxScale: 10"
+        >
+        </a-entity>
       </a-marker>
       <!-- elephant -->
       <a-marker type='pattern' url='https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/pattern/letterC.patt'>
@@ -34,7 +40,10 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/elephant/scene.gltf"
           position="0 0 0"
           scale="0.1 0.1 0.1"
-        />
+          class="clickable"
+          gesture-handler="minScale: 0.25; maxScale: 10"
+        >
+        </a-entity>
       </a-marker>
       <!-- pingouin -->
       <a-marker type='pattern' url='https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/pattern/letterD.patt'>
@@ -42,7 +51,10 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/pingouin/scene.gltf"
           position="0 0 0"
           scale="0.8 0.8 0.8"
-        />
+          class="clickable"
+          gesture-handler="minScale: 0.25; maxScale: 10"
+        >
+        </a-entity>
       </a-marker>
       <!-- poisson -->
       <a-marker type='pattern' url='https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/pattern/letterF.patt'>
@@ -50,7 +62,10 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/poisson/scene.gltf"
           position="0 0 0"
           scale="0.3 0.3 0.3"
-        />
+          class="clickable"
+          gesture-handler="minScale: 0.25; maxScale: 10"
+        >
+        </a-entity>
       </a-marker>
       <!-- poule -->
       <a-marker type='pattern' url='https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/pattern/letterG.patt'>
@@ -58,7 +73,10 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/poule/scene.gltf"
           position="0 0 0"
           scale="0.8 0.8 0.8"
-        />
+          class="clickable"
+          gesture-handler="minScale: 0.25; maxScale: 10"
+        >
+        </a-entity>
       </a-marker>
       <!-- requin -->
       <a-marker type='pattern' url='https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/pattern/letterM.patt'>
@@ -66,7 +84,10 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/requin/scene.gltf"
           position="0 0 0"
           scale="0.4 0.4 0.4"
-        />
+          class="clickable"
+          gesture-handler="minScale: 0.25; maxScale: 10"
+        >
+        </a-entity>
       </a-marker>
       <!-- tigre -->
       <a-marker type='pattern' url='https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/pattern/letterS.patt'>
@@ -74,7 +95,10 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/tigre/scene.gltf"
           position="0 0 0"
           scale="1 1 1"
-        />
+          class="clickable"
+          gesture-handler="minScale: 0.25; maxScale: 10"
+        >
+        </a-entity>
       </a-marker>
 
       <!-- vache -->
@@ -83,7 +107,10 @@
           gltf-model="https://raw.githubusercontent.com/AurelienPREVOST/KidsAnimalsDiscover_AR/master/3Dobjects/Animals/vache/scene.gltf"
           position="0 0 0"
           scale="0.4 0.4 0.4"
-        />
+          class="clickable"
+          gesture-handler="minScale: 0.25; maxScale: 10"
+        >
+        </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
