@@ -5,6 +5,7 @@ Cette application de réalité augmentée utilise la bibliothèque AR.js (Augmen
 ![image](https://github.com/AurelienPREVOST/KidsAnimalsDiscover_AR/assets/102169301/1a954516-c42a-4f1c-91a1-5b8c1930e647)
 
 
+
 # Cliquez ici ==>*[https://aurelienprevost.github.io/KidsAnimalsDiscover_AR/](https://aurelienprevost.github.io/KidsAnimalsDiscover_AR/)*
 
 ## Utilisation
@@ -15,6 +16,8 @@ En explorant le code, quelques points clés à noter :
 
 - Chaque modèle 3D est entouré d'une balise "a-marker".
 - Cette balise HTML appartient à la librairie AR.js et a un type spécifié. Dans ce cas, nous utilisons 'pattern' car nous travaillons avec des détecteurs de type patt. Consultez la documentation pour en savoir plus.
+
+![image](https://github.com/AurelienPREVOST/KidsAnimalsDiscover_AR/assets/102169301/3f45a7e9-db48-4be1-96b5-69d3d043f9d8)
 
 ## Création de modèles de détection
 
