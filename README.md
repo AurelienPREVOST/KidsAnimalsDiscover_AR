@@ -5,7 +5,7 @@ Cette application de réalité augmentée utilise la bibliothèque AR.js (Augmen
 ![image](https://github.com/AurelienPREVOST/KidsAnimalsDiscover_AR/assets/102169301/1a954516-c42a-4f1c-91a1-5b8c1930e647)
 
 
-# **[https://github.com/AurelienPREVOST/KidsAnimalsDiscover_AR](https://github.com/AurelienPREVOST/KidsAnimalsDiscover_AR)**
+# Cliquez ici ==>*[https://github.com/AurelienPREVOST/KidsAnimalsDiscover_AR](https://github.com/AurelienPREVOST/KidsAnimalsDiscover_AR)*
 
 ## Utilisation
 
