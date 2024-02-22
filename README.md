@@ -5,6 +5,8 @@ Cette application de réalité augmentée utilise la bibliothèque AR.js (Augmen
 ![image](https://github.com/AurelienPREVOST/KidsAnimalsDiscover_AR/assets/102169301/1a954516-c42a-4f1c-91a1-5b8c1930e647)
 
 
+# **[https://github.com/AurelienPREVOST/KidsAnimalsDiscover_AR](https://github.com/AurelienPREVOST/KidsAnimalsDiscover_AR)**
+
 ## Utilisation
 
 L'application utilise une partie spécifique de la librairie AR.js. Dans le dossier `printableFiles`, vous trouverez des lettres imprimables ou exposables sur une tablette ou un smartphone directement à la caméra du navigateur qui exécutera l'application.
