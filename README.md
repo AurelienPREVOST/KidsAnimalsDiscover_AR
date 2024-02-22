@@ -20,7 +20,7 @@ Pour créer des patterns de détection, vous pouvez utiliser l'outil disponible 
 
 ## Détails sur les modèles 3D
 
-Lorsque le pattern est détecté par la caméra, il affiche un modèle hébergé sur ce repository GitHub ([lien URL](lien_url)). Comme pour de nombreux modèles 3D, les textures, l'éclairage et les UV sont appliqués via les fichiers annexes situés dans le dossier de chaque modèle. Explorez un modèle pour en savoir plus.
+Lorsque le pattern est détecté par la caméra, il affiche un modèle hébergé sur ce repository GitHub [lien URL](https://github.com/AurelienPREVOST/KidsAnimalsDiscover_AR). Comme pour de nombreux modèles 3D, les textures, l'éclairage et les UV sont appliqués via les fichiers annexes situés dans le dossier de chaque modèle. Explorez un modèle pour en savoir plus.
 
 Cependant, le modèle est arbitraire en termes d'orientation, d'animation, de taille et de position. Toutes ces caractéristiques sont définies par les attributs passés dans la balise interne "a-marker", qui est la balise "a-entity".
 
