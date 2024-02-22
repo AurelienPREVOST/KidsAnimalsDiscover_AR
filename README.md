@@ -25,7 +25,7 @@ Le modèle est à spécifier dans l'attribut "gltf-model", et le reste des attri
 
 ## Prochainement
 
-Prochainement, vous pourrez télécharger depuis ce repository un livre PDF imprimable et assemblable destiné aux enfants pour leur faire découvrir de façon ludique différents animaux. Pour cela, rendez-vous sur le lien [ici](lien_pdf) et activez votre caméra.
+Prochainement, vous pourrez télécharger depuis ce repository un livre PDF imprimable et assemblable destiné aux enfants pour leur faire découvrir de façon ludique différents animaux. Pour cela, rendez-vous sur le lien [ici](https://aurelienprevost.github.io/KidsAnimalsDiscover_AR/), et activez votre caméra.
 
 
  
